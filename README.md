@@ -32,8 +32,8 @@ create a postgres db and add the credentials to settings.py:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db_name',
-        'USER': 'name',
+        'NAME': 'db_name',//the database must already be present on the postgres account
+        'USER': '',
         'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
